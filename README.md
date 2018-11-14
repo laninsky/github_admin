@@ -86,9 +86,4 @@ To add quotes, use a greater than sign:
 > This is a quote
 ```
 > This is a quote
-````
-
-> This is a multiline quote. It goes for multiple lines (if you make the window smaller)
-```
-> This is a multiline quote. It goes for multiple lines (if you make the window smaller)
 ```
