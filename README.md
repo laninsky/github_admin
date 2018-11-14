@@ -58,3 +58,11 @@ or
 ```
 *__both italics and bold__*
 ```
+
+# Line ruling
+If you type
+---
+you get a line
+```
+---
+```
