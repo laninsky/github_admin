@@ -19,3 +19,42 @@
 ```
 
 digital lab book example
+
+# Bold and italics
+```
+# Bold and italics
+```
+
+To put text in bold you use two asterisks: **This is bold**
+```
+**This is bold**
+```
+If you want an actual asterisk \* you need:
+```
+\*
+```
+
+Another way of making __bold text__ is:
+```
+__bold text__
+```
+
+Italics is a single asterisk *on both sides*
+```
+*on both sides*
+```
+Or it can be _on both sides_
+```
+_on both sides_
+```
+
+# Combination of both
+To make things **_both italics and bold_**:
+```
+**_both italics and bold_**
+```
+or
+*__both italics and bold__*
+```
+*__both italics and bold__*
+```
