@@ -87,3 +87,6 @@ To add quotes, use a greater than sign:
 ```
 > This is a quote
 ```
+# To make a code block
+you use three bacticks:
+\`\`\`
