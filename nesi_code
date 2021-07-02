@@ -1,0 +1,12 @@
+# List of your accounts:
+```
+nn_storage_quota | cut -d " " -f 1 | sed 's/project_//g' | sed 's/nobackup_//g' | tail -n+3 | sort | uniq > my_project_codes
+```
+# The sshare for all of the accounts
+```
+nn_sshare_sorted > sshare_sorted
+```
+# The sshare for just your accounts:
+```
+grep -f my_project_codes sshare_sorted
+```
