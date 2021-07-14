@@ -8,5 +8,5 @@ nn_sshare_sorted > sshare_sorted
 ```
 # The sshare for just your accounts:
 ```
-grep -f my_project_codes sshare_sorted
+grep -f my_project_codes sshare_sorted | sort -k 6
 ```
