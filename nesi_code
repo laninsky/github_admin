@@ -10,3 +10,7 @@ nn_sshare_sorted > sshare_sorted
 ```
 grep -f my_project_codes sshare_sorted | sort -k 6
 ```
+# Generate an md5 for all files within all folders when run from the parent folder on a mac.
+```
+find . -type f -exec md5 '{}' \; > md5sum_after_transfer.txt
+```
